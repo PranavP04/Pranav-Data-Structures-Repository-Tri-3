@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Welcome to Pranav's Jekyll Page
 
 |Week|Create Task|Replit|Test Prep Study|
