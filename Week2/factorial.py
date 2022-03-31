@@ -8,11 +8,12 @@ class Factorial:
           fact_number = n * self(n-1)
           self.factSeq.append(fact_number)
     return self.factSeq[n]
-  def print_factSeq(self):
-    print(self.factSeq)
+  
 fact_of = Factorial() # object instantiation and run __init__ method
-fact_of.print_factSeq()
-print(fact_of(3))# object running __call__ method
-fact_of.print_factSeq()
-if __name__=="__main__":
-      Factorial()
+# fact_of.print_factSeq()
+# print(fact_of(3))# object running __call__ method
+# fact_of.print_factSeq()
+
+def tester():
+  n = int(input())    
+  print(fact_of(n))

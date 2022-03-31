@@ -2,12 +2,11 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 
-import week0.menu
-import week1.tt1
-import week2.factorial
-import week2.factors
-import week2.fibonacci
-import week2.palidrone
+import Week0.pattern
+import Week1.fibonacci
+import Week2.factorial
+import Week2.gcd
+import Week2.palindrome
 
 
 # Main list of [Prompts, Actions]
@@ -15,8 +14,8 @@ import week2.palidrone
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Fun", week0.menu.ship],
-    ["Christmas Tree", week0.menu.christmasTree],
+    ["Fun", Week0.pattern.starpattern],
+    ["Christmas Tree", None],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -24,19 +23,19 @@ main_menu = [
 
 
 maths_sub_menu = [
-    ["Fibonacci", week2.fibonacci.tester],
-    ["Factorial", week2.factorial.tester],
-    ["Palidrome", week2.palidrone.tester],
-    ["Factors", week2.factors.tester],
-    ["Swap", week0.menu.swap],
-    ["Matrices", week0.menu.matrice],
+    ["Fibonacci", Week1.fibonacci.print_tester],
+    ["Factorial", Week2.factorial.tester],
+    ["GCD", Week2.gcd.tester2],
+    ["Palindrome", Week2.palindrome.tester],
+    ["Swap", None],
+    ["Matrices", None],
 ]
 
 loops_sub_menu = [
-    ["For Loop", week1.tt1.for_loop],
-    ["While Loop", week1.tt1.while_loopt],
-    ["Recursive Loop", week1.tt1.recursive_loopt],
-    ["All Loops", week1.tt1.tester],
+    ["For Loop", None],
+    ["While Loop", None],
+    ["Recursive Loop", None],
+    ["All Loops", None],
 ]
 
 # Menu banner is typically defined by menu owner

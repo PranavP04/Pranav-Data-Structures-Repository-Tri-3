@@ -27,17 +27,23 @@ class Gcd:
             if self.a % i == 0 and self.b % i == 0:
                 gcd = i
         return gcd
-print("This is OOP Form")      
-f = Gcd(36,24)
-print("The gcd of 36 and 24 is : ",end="")
-print(f())
 
-g = Gcd(24,18)
-print("The gcd of 24 and 18 is : ",end="")
-print(g())
-print()
-print("This is Imperative Form")
-print(igcd(36,24))
-print(igcd(24,18))
-if __name__=="__main__":
-      Gcd()
+def tester():      
+  print("This is OOP Form")      
+  f = Gcd(36,24)
+  print("The gcd of 36 and 24 is : ",end="")
+  print(f())
+  
+  g = Gcd(24,18)
+  print("The gcd of 24 and 18 is : ",end="")
+  print(g())
+  print()
+  print("This is Imperative Form")
+  print(igcd(36,24))
+  print(igcd(24,18))
+
+def tester2():
+  b = int(input())
+  p = int(input())
+  y = Gcd(b,p)
+  print(y())

@@ -69,4 +69,8 @@ print(f"{false} is {Value3._is_a_palindrome}")
 print(f"{trueline} is {Value2._is_a_palindrome}")
 print(f"{falseline} is {Value4._is_a_palindrome}")
 
+def tester():
+  n = input()
+  print(Palindrome(n))
+
       
