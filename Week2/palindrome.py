@@ -71,6 +71,7 @@ falseline = "The Dog is a Cat"
 
 def tester():
   n = input()
-  print(Palindrome(n))
+  y = Palindrome(n)
+  print(f"{n} is {y._is_a_palindrome}")
 
       
