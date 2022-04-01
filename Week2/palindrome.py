@@ -58,16 +58,16 @@ trueline = "A man, a plan, a canal -- Panama!"
 false = "Monster"
 falseline = "The Dog is a Cat"
 
-Value1 = Palindrome(true)
-Value2 = Palindrome(trueline)
-Value3 = Palindrome(false)
-Value4 = Palindrome(falseline)
+# Value1 = Palindrome(true)
+# Value2 = Palindrome(trueline)
+# Value3 = Palindrome(false)
+# Value4 = Palindrome(falseline)
 
 
-print(f"{true} is {Value1._is_a_palindrome}")
-print(f"{false} is {Value3._is_a_palindrome}")
-print(f"{trueline} is {Value2._is_a_palindrome}")
-print(f"{falseline} is {Value4._is_a_palindrome}")
+# print(f"{true} is {Value1._is_a_palindrome}")
+# print(f"{false} is {Value3._is_a_palindrome}")
+# print(f"{trueline} is {Value2._is_a_palindrome}")
+# print(f"{falseline} is {Value4._is_a_palindrome}")
 
 def tester():
   n = input()

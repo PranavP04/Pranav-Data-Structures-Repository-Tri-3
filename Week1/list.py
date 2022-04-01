@@ -52,22 +52,28 @@ def print_data(i):
 def print_forloop():
     for i in range(len(InfoDb)):
         print_data(i)
-print_forloop()
-print()
+
+      
 # while loop contains an initial n and an index incrementing statement (n += 1)
 def print_whileloop(i):
     while i < len(InfoDb):
         print_data(i)
         i += 1
     return
-print_whileloop(0)
+
+  
 # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
 def print_recursiveloop(i):
     if i < len(InfoDb):
         print_data(i)
         print_recursiveloop(i + 1)
     return # exit condition
-print()
-print_recursiveloop(0)
-if __name__=="__main__":
-      print_recursiveloop()
+
+
+def tester():
+  print_forloop(0)
+  print_whileloop(0)
+  print_recursiveloop(0)
+
+
+

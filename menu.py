@@ -3,6 +3,9 @@
 # each import enables us to use logic that has been abstracted to other files and folders
 
 import Week0.pattern
+import Week0.matrices
+import Week0.swap
+import Week1.list
 import Week1.fibonacci
 import Week2.factorial
 import Week2.gcd
@@ -15,7 +18,6 @@ import Week2.palindrome
 # 2. function references will be executed directly file.function()
 main_menu = [
     ["Fun", Week0.pattern.starpattern],
-    ["Christmas Tree", None],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -27,15 +29,12 @@ maths_sub_menu = [
     ["Factorial", Week2.factorial.tester],
     ["GCD", Week2.gcd.tester2],
     ["Palindrome", Week2.palindrome.tester],
-    ["Swap", None],
-    ["Matrices", None],
+    ["Swap", Week0.swap.swap],
+    ["Matrices", Week0.matrices.matrice],
 ]
 
 loops_sub_menu = [
-    ["For Loop", None],
-    ["While Loop", None],
-    ["Recursive Loop", None],
-    ["All Loops", None],
+    ["All Loops", Week1.list.tester],
 ]
 
 # Menu banner is typically defined by menu owner
