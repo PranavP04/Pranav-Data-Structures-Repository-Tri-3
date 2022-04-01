@@ -1,9 +1,6 @@
 {% include navigation.html %}
 
-
-
-
-# Welcome to Pranav's Jekyll Page
+## Welcome to Pranav's Jekyll Page
 
 
 <table>
