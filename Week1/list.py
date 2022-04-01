@@ -49,31 +49,65 @@ def print_data(i):
   print("\t", "Sports: ", end="")
   print(", ".join(InfoDb[i]["Sports"]))
   
-def print_forloop():
-    for i in range(len(InfoDb)):
-        print_data(i)
+# Hack 2: InfoDB loops. Print values from the lists using three different ways: for, while, recursion
+## hack 2a: def for_loop()
+def for_loop():
+    for n in range(len(InfoDb)):
+        print_data(n)
 
-      
+
+## hack 2b: def while_loop(0)
 # while loop contains an initial n and an index incrementing statement (n += 1)
-def print_whileloop(i):
-    while i < len(InfoDb):
-        print_data(i)
-        i += 1
-    return
 
-  
+def while_loopt():
+  while_loop(0)
+
+def while_loop(n):
+    while n < len(InfoDb):
+        print_data(n)
+        n += 1
+    #for n in range(len(InfoDb)):
+    #    print_data(n)
+    #j = int(n)
+    #print(j)
+
+    #while j < len(InfoDb):
+    #    print_data(j)
+    #    j += 1
+    #return
+
+
+## hack 2c : def recursive_loop(0)
 # recursion simulates loop incrementing on each call (n + 1) until exit condition is met
-def print_recursiveloop(i):
-    if i < len(InfoDb):
-        print_data(i)
-        print_recursiveloop(i + 1)
-    return # exit condition
+
+def recursive_loopt():
+  recursive_loop(0)
+
+def recursive_loop(n):
+    if n < len(InfoDb):
+        print_data(n)
+        recursive_loop(n + 1)
+    return  # exit condition
+
+
+# Factorial of a number using recursion
+def recur_factorial(n):
+    if n == 1 or n == 0:
+        return 1
+    else:
+        return n * recur_factorial(n - 1)
 
 
 def tester():
-  print_forloop(0)
-  print_whileloop(0)
-  print_recursiveloop(0)
+    print("For loop")
+    for_loop()
+    print("While loop")
+    while_loop(0)  # requires initial index to start while
+    print("Recursive loop")
+    recursive_loop(0)  # requires initial index to start recursion
+
+
+# for loop iterates on length of InfoDb
 
 
 

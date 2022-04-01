@@ -1,13 +1,10 @@
-def starpattern(n):
-  v = 16
-  b = 1
-  for i in range(0,5):
-    for j in range(0,v):
-      print(end="")
-      v = v-4
-      for j in range(0,b):
-        print("*", end ="")
-        b = b + 2
+def starpattern():
+  num_rows = int(input("Enter the number of rows"));
+  for i in range(0, num_rows):
+    for j in range(0, num_rows-i-1):
+      print(end=" ")
+    for j in  range(0, i+1):
+        print("*", end=" ")
         print()
 
 def pypart(n):
@@ -30,7 +27,8 @@ def contalpha(n):
       number = number + 1
     print("/r")
 
-
+def tester():
+  starpattern(5)
 
 # main_menu = [
 #   ["fancy staircase", "fancy.py"],
