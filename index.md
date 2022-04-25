@@ -103,3 +103,55 @@
   </tr>
   </table>
 
+## Pranav MCQ Corrections
+  
+  <table>
+  <tr>
+    <th>
+      Question Number
+    </th>
+    <th>
+      Image
+    </th>
+    <th>
+      Corrections
+    </th>
+  </tr>
+  <tr>
+    <td>
+      21 - MCQ 1 
+    </td>
+    <td>
+      ![image](https://user-images.githubusercontent.com/89223545/165150990-44e98ac5-994e-49b2-aad3-8421fb27ac3a.png)
+
+    </td>
+    <td>
+      <a href="https://apclassroom.collegeboard.org/103/home?unit=0">College Board AP CSP Overview Tab</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Week of 4/25/22
+    </td>
+    <td>
+      Over this week, my plan is to try and work on all the units regarding data and algorithms and programming. Within these units, my plan is to work on all the different quizzes that were assigned for these units and also watch all the videos for each unit section. Once I am done with this, I will do more practice using Khan Academy for all of these units.
+    </td>
+    <td>
+      <a href="https://apclassroom.collegeboard.org/103/home?unit=2">Data and Algorithms CB Videos/Quizzes</a>
+      <a href="https://apclassroom.collegeboard.org/103/home?unit=3">Programming CB Videos/Quizzes</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Week of 5/2/22
+    </td>
+    <td>
+      For this week, I am going to complete a similar process to what I am planning on doing for the week of 4/25/22. Except this week, I will focus on collegeboard topics Unit 4 and Unit 5. These units focus on Computer Systems and Networks and Impact of Computing.  
+    </td>
+    <td>
+      <a href="https://apclassroom.collegeboard.org/103/home?unit=4">Computer Systems and Netowrks CB Videos/Quizzes</a>
+      <a href="https://apclassroom.collegeboard.org/103/home?unit=5">Impact of Computing CB Videos/Quizzes</a>
+    </td>
+  </tr>
+  </table>
+
